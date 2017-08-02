@@ -1,8 +1,8 @@
 FROM hegand/alpine:3.5
 
 ENV JAVA_VERSION=8 \
-    JAVA_UPDATE=131 \
-    JAVA_BUILD=11 \
+    JAVA_UPDATE=144 \
+    JAVA_BUILD=01 \
     JAVA_PATH=d54c1d3a095b4ff2b6607d096fa80163 \
     JAVA_HOME="/usr/lib/jvm/default-jvm"
 ENV PATH $PATH:$JAVA_HOME/jre/bin:$JAVA_HOME/bin
