@@ -1,6 +1,6 @@
-FROM hegand/alpine:3.5
+FROM hegand/alpine:edge
 
-ENV JAVA_VERSION 8.121.13
+ENV JAVA_VERSION 8.222.10
 ENV JAVA_ALPINE_VERSION $JAVA_VERSION-r1
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
 ENV PATH $PATH:$JAVA_HOME/jre/bin:$JAVA_HOME/bin
